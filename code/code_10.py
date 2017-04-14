@@ -47,18 +47,14 @@ import numpy as np
 import time
 import sys
 import mylib as ml
-import bottleneck as bn
 import SGNG
 from saliency import saliency
-from scipy.spatial.distance import pdist, squareform
-from matplotlib import pyplot as plt
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 import scipy.ndimage as ndimage
 from multiprocessing import Pool
 import itertools
 import caffe
-import pyimgsaliency as pis
 
 def bulk_feature_extractor(imgs_list):
 
